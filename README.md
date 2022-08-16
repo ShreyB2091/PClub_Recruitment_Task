@@ -22,8 +22,8 @@ $$z^{[1] (i)} =  W^{[1]} x^{(i)} + b^{[1]}$$
 $$a^{[1] (i)} = \tanh(z^{[1] (i)})$$
 $$z^{[2] (i)} = W^{[2]} a^{[1] (i)} + b^{[2]}$$
 $$\hat{y}^{\(i\)} = a^{\[2\]\(i\)} = \sigma(z^{\[2\]\(i\)})$$
-$$y^{\(i\)}_{prediction} = \begin{cases} 1 & \mbox{if} a^{\[2\]\(i\)} > 0.5 \\ 0 & \mbox{otherwise} \end{cases}$$
-
+<!-- $$y^{\(i\)}_{prediction} = \begin{cases} 1 & \mbox{if} a^{\[2\]\(i\)}>0.5 \\ 0 & \mbox{otherwise} \end{cases}$$
+ -->
 Given the predictions on all the examples, you can also compute the cost $J$ as follows: 
 $$J = - \frac{1}{m} \sum\limits_{i = 0}^{m} \large\left(\small y^{\(i\)}\log\left(a^{\[2\] \(i\)}\right) + (1-y^{\(i\)})\log\left(1- a^{\[2\] \(i\)}\right)  \large  \right) \small$$
 
